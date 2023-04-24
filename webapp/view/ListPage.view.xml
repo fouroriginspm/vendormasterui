@@ -1,0 +1,17 @@
+<mvc:View controllerName="vndrmgmt.listpage.controller.ListPage"
+ xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page"  showHeader="false" >
+      <content>
+        
+         <core:Fragment  fragmentName="vndrmgmt.listpage.view.subView.ListPageFilterBar" type="XML" />
+        </content>
+        <content>
+        
+         <core:Fragment  fragmentName="vndrmgmt.listpage.view.subView.ListPageTable" type="XML" />
+        </content>
+
+    </Page>
+</mvc:View>
+

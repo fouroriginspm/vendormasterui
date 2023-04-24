@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:filterbar="sap.ui.comp.filterbar">
+<Table id="idProductsTable"
+		inset="false"
+		items="{TableModel>/List}"
+        mode="SingleSelectMaster"
+        press="handleItemPress">
+         <columns>
+
+         <Column>
+                <Text text="Brand Code" />
+            </Column>
+            <Column>
+                <Text text="Brand Description" />
+            </Column>
+             </columns>
+
+             <items>
+            <ColumnListItem >
+           
+            <cells>
+                
+                <Text text="{}" />
+                <Text text="{}" />
+
+                  </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

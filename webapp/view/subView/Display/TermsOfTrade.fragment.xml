@@ -1,0 +1,166 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplay480_12120"
+			 editable="true"
+            layout="ResponsiveGridLayout"
+            title="Payment Terms"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false">
+			<f:content>
+            <core:Title text=""/>
+			 <Label text="{i18n>Company Information}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                	
+			</f:content>
+		</f:SimpleForm>
+		<f:SimpleForm id="SimpleFormDisplay480_12120-2"
+			 editable="true"
+            layout="ResponsiveGridLayout"
+            title="Discounts"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false">
+			<f:content>
+            <core:Title text=""/>
+            <Label text="{i18n>Per SKU}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                  <Label text="{i18n>Discount%}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+                
+              <core:Title text=""/>
+                <Label text="{i18n>Overall Discount}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+           <Label text="{i18n>Discount Amount}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                	  	
+				 	  	
+				
+			</f:content>
+		</f:SimpleForm>
+        <f:SimpleForm id="SimpleFormDisplay480_12120-3"
+			 editable="true"
+            layout="ResponsiveGridLayout"
+            title="Others"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false">
+			<f:content>
+            <core:Title text=""/>
+            <Label text="{i18n>Return Policy}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+            
+             <Label text="{i18n>Plan Lead Time (In Days)}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                <Label text="{i18n>EWT}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+                <core:Title text=""/>
+                <Label text="{i18n>RTV To A/P Active Y/N(See Return Policy)}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+
+                <Label text="{i18n>Should PO Allowance Be Seprate Invoice line }" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+              <Label text="{i18n>EWT Rate}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+  	  	
+				 	  	
+				
+			</f:content>
+		</f:SimpleForm>
+
+<f:SimpleForm id="SimpleFormDisplay480_12120-4"
+			 editable="true"
+            layout="ResponsiveGridLayout"
+            title="Does This Vendor?"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false"
+		>
+			<f:content>
+            <core:Title text=""/>
+            <Label text="{i18n>Use Matching}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+           
+             <Label text="{i18n>Use Credit Authorization}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                 <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                 <Label text="{i18n>Use Hash Quantities}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+                <core:Title text=""/>
+                 <Label text="{i18n>Vendor Matching Type}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+
+                <Label text="{i18n>Always Bill For Freight }" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+             
+				 	  	
+				
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

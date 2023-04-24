@@ -1,0 +1,32 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:filterbar="sap.ui.comp.filterbar">
+<Table id="idProductsTable2"
+		inset="false"
+		items="{TableModel>/List}"
+        mode="SingleSelectMaster"
+        press="handleItemPress">
+         <columns>
+
+         <Column>
+                <Text text="Allowance Code" />
+            </Column>
+            <Column>
+                <Text text="Allowance Value" />
+            </Column>
+                <Column>
+                <Text text="Allowance %" />
+            </Column>
+             </columns>
+
+             <items>
+            <ColumnListItem >
+           
+            <cells>
+                
+                <Text text="{}" />
+                <Text text="{}" />
+
+                  </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

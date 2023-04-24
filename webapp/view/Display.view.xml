@@ -1,0 +1,64 @@
+<mvc:View controllerName="vndrmgmt.listpage.controller.Display" xmlns:layout="sap.ui.layout" xmlns="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:form="sap.ui.layout.form">
+    <m:Page showHeader="false" backgroundDesign="Solid">
+        <m:content>
+            <ObjectPageLayout showFooter="true" class="objectPageStyle" showHeaderContent="false" showTitleInHeaderContent="true" alwaysShowContentHeader="false" preserveHeaderStateOnScroll="false" headerContentPinnable="true" isChildPage="true" upperCaseAnchorBar="false">
+                <sections>
+                    <ObjectPageSection title="{i18n>Vendor Information}">
+                        <subSections>
+                            <ObjectPageSubSection>
+                                <blocks>
+                                    <core:Fragment fragmentName="vndrmgmt.listpage.view.subView.Display.VendorInformation" type="XML" />
+                                </blocks>
+                               
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+                     <ObjectPageSection title="{i18n>Terms Of Trade}">
+                        <subSections>
+                            <ObjectPageSubSection>
+                                <blocks>
+                                    <core:Fragment fragmentName="vndrmgmt.listpage.view.subView.Display.TermsOfTrade" type="XML" />
+                                </blocks>
+                               
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+                     <ObjectPageSection title="{i18n>Associated Brands}">
+                        <subSections>
+                            <ObjectPageSubSection>
+                                <blocks>
+                                    <core:Fragment fragmentName="vndrmgmt.listpage.view.subView.Display.AssociatedBrands" type="XML" />
+                                </blocks>
+
+                               
+                            </ObjectPageSubSection>
+                               </subSections>
+                    </ObjectPageSection>
+                    <ObjectPageSection title="{i18n>Allowance}">
+                        <subSections>
+                            <ObjectPageSubSection>
+                                <blocks>
+                                    <core:Fragment fragmentName="vndrmgmt.listpage.view.subView.Display.Allowance" type="XML" />
+                                </blocks>
+                               
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+                
+                      </sections>
+                      </ObjectPageLayout>
+
+                       </m:content>
+                       <m:footer>
+        <m:Bar>
+        <m:contentLeft>
+        <m:Button text= "Cancel" type="Default" press="onCancel"/>
+        </m:contentLeft>
+        
+        <m:contentRight>
+        <m:Button text= "Submit" type="Emphasized" press="onSubmit"/>
+        </m:contentRight>
+        </m:Bar>
+        </m:footer>
+                       </m:Page>
+                       </mvc:View>

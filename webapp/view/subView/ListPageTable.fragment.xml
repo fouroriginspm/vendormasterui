@@ -1,0 +1,63 @@
+<core:FragmentDefinition xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:filterbar="sap.ui.comp.filterbar">
+    <Table id="idProductsTable" inset="false" items="{appModel>/items}" mode="SingleSelectMaster" press="handleItemPress">
+        <headerToolbar>
+            <OverflowToolbar>
+                <Title text="Vendors" level="H2"/>
+                <ToolbarSpacer />
+                <Button icon="sap-icon://download" text="Download" tooltip="download" type="Emphasized" press="onDownload" />
+                <Button icon="sap-icon://sort" text="{i18n>Sort}" tooltip="Sort" type="Emphasized" press="onSort"/>
+            </OverflowToolbar>
+        </headerToolbar>
+        <columns>
+
+            <Column>
+                <Text text="Vendor Code" />
+            </Column>
+            <Column>
+                <Text text="Vendor Name" />
+            </Column>
+            <Column>
+                <Text text="Buyer" />
+            </Column>
+            <Column>
+                <Text text="Buyer Desc" />
+            </Column>
+            <Column>
+                <Text text="Email Address" />
+            </Column>
+            <Column>
+                <Text text="Status" />
+            </Column>
+            <Column width="12rem" hAlign="End" popinDisplay="Inline">
+                <Text />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem type="Inactive">
+
+                <cells>
+
+                    <Text text="{appModel>VENDOR_CODE}" />
+                    <Text text="{appModel>COMPANY_NAME}" />
+                    <Text text="{appModel>BUYER}" />
+                    <Text text="{appModel>BUYER_DESC}" />
+
+                    <Text text="{appModel>EMAIL_ID}" />
+                    <Text text="{=${appModel>ACTIVE} ? 'Active' : 'Inactive'}" />
+
+
+                    <HBox wrap="Wrap" alignItems="End">
+
+                        <core:Icon src="sap-icon://display" tooltip="{i18n>Display}" press=".onPressDisplay" class="sapUiTinyMargin" />
+                        <core:Icon src="sap-icon://detail-view" tooltip="{i18n>ViewDocument}" press=".onPressViewDocument" class="sapUiTinyMargin" />
+                        <core:Icon src="sap-icon://upload" tooltip="{i18n>UploadDocument}" press=".onPressUploadDocument" class="sapUiTinyMargin" />
+
+
+                    </HBox>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

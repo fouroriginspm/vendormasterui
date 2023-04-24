@@ -1,0 +1,185 @@
+ <core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplay4801"
+			editable="true"
+            layout="ResponsiveGridLayout"
+            title="Basic Information"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false" >
+			<f:content>
+            
+            <core:Title text=""/>
+			 <Label text="{i18n>Status}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+              	
+			 
+			 <Label text="{i18n>Buyer}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                <Label text="{i18n>VAT Registered}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                 
+            <core:Title text=""/>	
+            <Label text="{i18n>Company Name}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                		  		
+			 <Label text="{i18n>Company Information}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                		
+					
+			 <Label text="{i18n>TIN Number}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                	
+			</f:content>
+		</f:SimpleForm>
+		<f:SimpleForm id="SimpleFormDisplay4802"
+			editable="true"
+            layout="ResponsiveGridLayout"
+            title="Contact Information"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false" >
+			<f:content>
+            <core:Title text=""/>
+            <Label text="{i18n>Email}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+                
+           
+             <Label text="{i18n>Phone}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                <Label text="{i18n>Fax}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                	
+            <core:Title text=""/>
+              <Label text="{i18n>Alt Email}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+
+                <Label text="{i18n>Mobile}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+
+                   <Label text="{i18n>Name}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                	  	
+				 	  	
+				
+			</f:content>
+		</f:SimpleForm>
+        <f:SimpleForm id="SimpleFormDisplay4803"
+            editable="true"
+            layout="ResponsiveGridLayout"
+            title="Company Address"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false" >
+			
+			<f:content>
+            <core:Title text=""/>
+            <Label text="{i18n>Street}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+            
+             <Label text="{i18n>City}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                <Label text="{i18n>Zip Code}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+                <core:Title text=""/>
+                <Label text="{i18n>Area}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+
+                <Label text="{i18n>Country }" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+             
+				 	  	
+				
+			</f:content>
+		</f:SimpleForm>
+
+
+           <f:SimpleForm id="SimpleFormDisplay4805"
+			editable="true"
+            layout="ResponsiveGridLayout"
+            title="Payment Information"
+            labelSpanXL="4"
+            labelSpanL="4"
+            labelSpanM="12"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="0"
+            emptySpanL="0"
+            emptySpanM="0"
+            emptySpanS="0"
+            columnsXL="2"
+            columnsL="2"
+            columnsM="1"
+            singleContainerFullSize="false">
+            <f:content>
+            <core:Title text=""/>
+              <Label text="{i18n>Cheque Payee Name }" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+              <core:Title text=""/>
+              <Label text="{i18n>Location}" design="Bold" />
+                <Input value="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? false : true}" />
+                <Text text="{appModel>/detailItem/CONTACT/TELE_FAX_NUMBER}" visible="{=${appModel>/action} === 'Display' ? true : false}" />
+                
+             </f:content>
+		</f:SimpleForm>
+	
+    </VBox>
+</core:FragmentDefinition> 
+
+
+

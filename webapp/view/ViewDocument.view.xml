@@ -1,0 +1,22 @@
+<mvc:View controllerName="vndrmgmt.listpage.controller.ViewDocument"
+ xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" showHeader="false" >
+        <content>
+        
+         <core:Fragment  fragmentName="vndrmgmt.listpage.view.subView.ViewDocument.view" type="XML" />
+        </content>
+    <footer>
+        <Bar>
+        <contentLeft>
+        <Button text= "Cancel" type="Default" press="onCancel"/>
+        </contentLeft>
+        
+        <contentRight>
+        <Button text= "Submit" type="Emphasized" press="onSubmit"/>
+        </contentRight>
+        </Bar>
+        </footer>
+    </Page>
+</mvc:View>

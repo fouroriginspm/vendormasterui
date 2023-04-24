@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:layout="sap.ui.layout"
+ xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog confirm="handleSortDialogConfirm">
+		<sortItems>
+			<ViewSettingsItem text="User ID" key="USER_ID" selected="true"/>
+			<ViewSettingsItem text="Login Name" key="LOGIN_NAME"/>
+			
+			<ViewSettingsItem text="User Type" key="USER_TYPE"/>
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>
